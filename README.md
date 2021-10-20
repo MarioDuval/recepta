@@ -33,7 +33,7 @@ Crear un Pull Request amb el vostre nom
 
 ## Codi Inicial
 
-Treballaràs a la carpeta pastis-codi-inici. El codi d'inici contè tots els arxius, imatges i text necessari per crear la pàgina. El text es troba a l'`index.html`, i el css es troba a l'arxiu `main.css`.
+Treballaràs a la carpeta pastis-codi-inici. El codi d'inici contè tots els arxius, imatges i text necessari per crear la pàgina. El text es troba a l'`index.html`.
 
 ## Resultat
 
