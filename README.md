@@ -22,8 +22,14 @@ Començarem amb un codi d'inici per cuinar un pastis de poma
 
 ## Enviament
 
-Per enviar l'exercici feu servir les següents instruccions:
+Per enviar l'exercici feu servir el classroom:
 
+1.- Heu de publicar la vostar WEB
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+2.-Envar el link de la vostra web publicada.
+
+## Instrucions GIT
 ```
 $ git clone https://github.com/rgarciamvm/recepta.git
 
@@ -31,7 +37,6 @@ $ git add .
 $ git commit -m "done"
 $ git push origin master
 ```
-Crear un Pull Request amb el vostre nom
 
 ## Codi Inicial
 
