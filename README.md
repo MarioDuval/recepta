@@ -25,7 +25,7 @@ Començarem amb un codi d'inici per cuinar un pastis de poma
 Per enviar l'exercici feu servir les següents instruccions:
 
 ```
-$ git clone https://github.com/ricardrgm/recepta.git
+$ git clone https://github.com/rgarciamvm/recepta.git
 
 $ git add .
 $ git commit -m "done"
