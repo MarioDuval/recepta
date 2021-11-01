@@ -11,13 +11,14 @@ figcaption {
 body {
     background-image: url('images/apple-pie.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 30%;
+    background-size: 100% 23%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cuerpo {
     margin: 45% 10% 10% 10%;
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .recipe {
@@ -40,7 +41,9 @@ ul {
     text-indent: -5px;
   }
 
-  ol {
+ol {
+    margin-left: -2%;
+    margin-right: -10%;
     counter-reset: list;
 }
 ol > li {
@@ -49,4 +52,9 @@ ol > li {
 ol > li:before {
     content: counter(list) ") ";
     counter-increment: list;
+}
+
+.cooking {
+  margin-top: 5%;
+  margin-left: 20%;
 }
