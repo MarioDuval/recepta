@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 figcaption {
     position: absolute;
     top: 30%;
@@ -49,4 +50,18 @@ ol > li {
 ol > li:before {
     content: counter(list) ") ";
     counter-increment: list;
+=======
+img {
+    width: 100%;
+    height: 500px;
+}
+
+figcaption {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;;
+>>>>>>> 4ad63dab98695672d97b7625e5bff5b7ada0a47a
 }
