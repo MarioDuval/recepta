@@ -1,0 +1,52 @@
+figcaption {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    color: white;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+body {
+    background-image: url('images/apple-pie.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+}
+
+.cuerpo {
+    margin: 45% 10% 10% 10%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.recipe {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+
+ul {
+    margin: 0;
+  }
+  ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "- ";
+    text-indent: -5px;
+  }
+
+  ol {
+    counter-reset: list;
+}
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
